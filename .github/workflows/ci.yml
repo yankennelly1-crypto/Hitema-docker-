@@ -51,5 +51,4 @@ jobs:
         with:
           context: ./api
           push: true
-          tags: ${{ env.IMAGE_NAME }}:${{ github.sha }}
-          
+          tags: ${{ env.IMAGE_NAME }}:${{ github.sha }}  
