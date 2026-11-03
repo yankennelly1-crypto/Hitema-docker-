@@ -44,7 +44,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
  
       - name: Mettre le nom de l'image en minuscules
-        run: echo "IMAGE_NAME=ghcr.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_ENV"
+        run: echo "IMAGE_NAME=ghcr.io/yankennelly1-crypto/hitema-docker" >> "$GITHUB_ENV"
  
       - name: Construire et publier l'image Docker
         uses: docker/build-push-action@v7
