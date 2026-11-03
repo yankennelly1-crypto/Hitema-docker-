@@ -52,4 +52,4 @@ jobs:
           context: ./api
           push: true
           tags: ${{ env.IMAGE_NAME }}:${{ github.sha }}
-Dispose d’un menu contextuel
+          
