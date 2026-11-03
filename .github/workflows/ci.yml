@@ -22,7 +22,7 @@ jobs:
         run: |
           cd api
           pytest
-    build:
+  build:
     needs: test
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
