@@ -19,7 +19,7 @@ jobs:
         run: pip install -r api/requirements.txt
  
       - name: Lancer les tests
-        run:
+        run: | 
           cd api
           pytest
  
