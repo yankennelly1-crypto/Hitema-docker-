@@ -12,7 +12,9 @@ items = []
 @app.get("/health")
 def health():
     return {"status": "ok"}
- 
+@app.get("/nelly")
+def nelly():
+    return {"status": "nelly"}
  
 @app.get("/items")
 def list_items():
